@@ -1,0 +1,118 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td,code {
+  margin: 0; padding: 0; border-width:0;
+  box-sizing: border-box;
+  line-height: 1.388889rem;
+  color: #444;
+}
+
+html {
+    font-size: 18px;
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-size: 100%; 
+}
+
+html>body {
+	font-size: 18px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+body {
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+  color: #545454;
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0 1.388889rem;
+  margin: 1.388889rem auto;
+  max-width: 60rem;
+}
+
+p, code, pre {
+  font-size: 1rem;
+  line-height: 1.388889rem;
+  margin-top: 1.388889rem;
+}
+pre {
+  display:none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.388889rem;
+  letter-spacing: 12px;
+  margin-top: 1.388889rem;
+  /*margin-bottom: 1.388889rem;*/
+}
+h5 {
+  font-size: 1.617778rem;
+  line-height: 2.777778rem; 
+  margin-top: 1.388889rem;
+}
+h4 {
+  font-size: 2.617778rem;
+  line-height: 2.777778rem; 
+  margin-top: 1.3888889rem;
+}
+h3 {
+  font-size: 4.236rem;
+  line-height: 4.166667rem; 
+  margin-top: 2.777778rem;
+  /*margin-bottom: 1.388889rem;*/
+}
+h2 {
+  font-size: 6.854rem;
+  line-height: 6.944444rem; 
+  margin-top: 2.777778rem;
+}
+h1 {
+  font-size: 11.089rem;
+  line-height: 11.111111rem; 
+  margin-top: 2.777777778rem;
+}
+
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
+  margin-top: 0;
+}
+
+a {
+    color: #0083e8;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.388888889rem auto;
+    max-height: 26.39rem;
+    max-width: 75vw;
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
